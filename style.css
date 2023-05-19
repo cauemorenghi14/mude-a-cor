@@ -1,0 +1,57 @@
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.btn {
+    border: none;
+    margin: 1%;
+    padding: 2em 3em;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.btn:nth-child(1):hover {
+    background-color: #4d4dff;
+}
+
+.btn:nth-child(2):hover {
+    background-color: #ff4d4d;
+}
+
+.btn:nth-child(3):hover {
+    background-color: #ffff4d;
+}
+
+.btn:nth-child(4):hover {
+    background-color: #5cd65c;
+}
+
+.btn:nth-child(5):hover {
+    background-color: black;
+}
+
+.btn:nth-child(6){
+    background-color: gold;
+    text-decoration: none;
+    color: black;
+}
+
+#quadrado {
+    display: flex;
+    justify-content: center;
+    border: solid 1px #adadad;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 40vh;
+    width: 30%;
+    margin: 0 auto;
+}
